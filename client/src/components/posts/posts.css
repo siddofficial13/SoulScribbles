@@ -1,0 +1,7 @@
+.posts{
+    flex: 9; 
+    display: flex;
+    flex-wrap: wrap;
+       /*this means it will  use the whole line till it crosses or overlap the other flex abnd then it will be shifted to another line */
+    margin: 20px;   
+}

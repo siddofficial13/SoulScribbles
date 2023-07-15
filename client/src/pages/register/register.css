@@ -1,0 +1,62 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+  }
+  .registerTitle{
+    font-size: 50px;
+    font-family: 'Merriweather', serif;
+  }
+  .registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .registerForm > label{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+  }
+  .registerInput{
+    padding: 12px;
+    background-color: white;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    height: 20px;
+    border-bottom: 1px solid lightgray;
+    
+  }
+  .registerButton{
+    margin-top: 28px;
+    cursor: pointer;
+    border: none;
+    /* color: white; */
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    background-color: teal;
+    color: white;
+  }
+  .registerLoginButton{
+    position: absolute;
+    top: 69px;
+    right: 20px;
+    cursor: pointer;
+    background-color: rgb(210, 18, 18);
+    border: none;
+    /* color: white; */
+    border-radius: 5px;
+    /* padding: 12px; */
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+}

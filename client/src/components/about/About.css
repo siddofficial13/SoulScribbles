@@ -1,0 +1,77 @@
+/* About.css */
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .about-heading {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+  }
+  
+  .about-heading h1 {
+    font-size: 60px;
+    color: #333;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 200;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 70px; 
+    /* margin-left: 10px; */
+  }
+  
+  .image-container {
+    flex: 0 0 40%;
+    padding-right: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .lady-image {
+    height: 380px;
+    width: 300px;
+    /* border-radius: 50%; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description {
+    flex: 1;
+    margin-left: 20px;
+    align-items: center;
+   
+  }
+  
+  .description p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    justify-content: center;
+    align-items: center;
+  }
+  .ftdiv{
+    margin-top: 20px;
+  }
+  footer {
+    background-color: #f8f9fa; /* Set the background color to off-white or greyish */
+  }
+  .icon{
+    padding: 5px;
+  }
+  footer ul.social-icons {
+    justify-content: center; /* Center the social icons horizontally */
+  }
+  
+  footer ul.social-icons li {
+    margin-right: 10px; /* Add some spacing between the social icons */
+  }
+  
+  footer p {
+    color: #fff; /* Set the text color to white */
+  }
